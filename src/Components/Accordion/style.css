@@ -1,0 +1,38 @@
+.project-title {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.wrapper button {
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.accordion {
+    width: 500px;
+}
+
+.item {
+    background: rgb(5, 130, 164);
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
